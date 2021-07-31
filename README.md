@@ -18,15 +18,12 @@ Edit the selfhost/inventory/forem/setup.yml file. Add forem domain name, default
 Now run 
 ```bash
 vagrant ssh
-
 cd /vagrant
 
 #  Generate a SSH key using the following command named and save it to ${HOME}/.ssh/forem.
-
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 # generate one more normal key name id_rsa
-
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 
